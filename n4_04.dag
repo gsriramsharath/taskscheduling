@@ -1,0 +1,86 @@
+
+The ID of this section is 0
+    The parameters for the following section (ID==1) are:
+    Number of processors (thePCount)
+    Number of jobs (theTCount)
+    Number of sides (theECount)
+*/===================================================================
+4
+20
+35
+/*=================================================================== 
+   The ID of this section is 2
+    The parameters of the following section (ID==3) double[pFrom][pTo] theCommRate indicate:
+    The time required by the processor pFrom to send a unit of data to the processor pTo
+*/=================================================================== 
+0.0 1.0 1.0 1.0 
+1.0 0.0 1.0 1.0 
+1.0 1.0 0.0 1.0 
+1.0 1.0 1.0 0.0 
+/*===================================================================
+  
+The ID of this section is 4
+    The parameters of the following section (ID==5) double[tID][pID] the contents of theCompCost indicate:
+    Assign work tID to processor pID execution time
+*/===================================================================
+0.0 0.0 0.0 0.0 
+56.1 52.9 65.1 87.9 
+37.1 28.8 29.4 31.8 
+47.6 40.4 35.6 48.3 
+46.4 41.0 25.1 30.9 
+47.0 41.6 27.8 52.3 
+38.0 32.2 44.4 27.8 
+39.7 82.5 69.3 70.3 
+36.0 19.8 26.2 25.6 
+22.5 31.7 18.7 41.9 
+38.1 40.3 39.1 31.7 
+38.3 24.9 28.8 36.8 
+50.6 27.7 33.0 52.5 
+27.4 18.6 26.0 25.1 
+16.7 21.2 18.1 19.1 
+25.6 27.3 22.5 12.7 
+17.7 17.2 27.6 22.5 
+7.5 7.1 6.4 8.0 
+9.4 13.8 10.8 9.4 
+0.0 0.0 0.0 0.0 
+/*===================================================================
+
+The ID of this section is 6
+    The contents of the following section (ID==7) double[tFrom][tTo] theTransDataVol:
+    Data exchange between work tFrom and work tTo
+*/===================================================================
+0 1 0
+1 2 120
+1 3 120
+1 4 120
+1 5 120
+1 6 120
+1 7 120
+2 19 0
+3 7 80
+3 8 80
+4 9 80
+5 10 80
+6 11 80
+7 8 120
+7 9 120
+7 10 120
+7 11 120
+7 12 120
+8 19 0
+9 12 80
+9 13 80
+10 14 80
+11 15 80
+12 13 120
+12 14 120
+12 15 120
+12 16 120
+13 19 0
+14 16 80
+14 17 80
+15 18 80
+16 17 120
+16 18 120
+17 19 0
+18 19 0
